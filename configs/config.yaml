@@ -1,0 +1,22 @@
+## конфигурация для локального запуска приложения
+
+# port: "8000"
+
+# db:
+#   host: "localhost"
+#   port: "5433"
+#   username: "postgres"
+#   dbname: "postgres"
+#   sslmode: "disable"
+
+
+
+# конфигурация для запуска в контейнере
+port: "8000"
+
+db:
+  host: "db"
+  port: "5432"
+  username: "postgres"
+  dbname: "postgres"
+  sslmode: "disable"

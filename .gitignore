@@ -1,0 +1,15 @@
+# PostgreSQL database storage
+.database/
+
+.idea/
+.env
+*.log
+
+# macOS system files
+.DS_Store
+
+# Go build artifacts
+bin/
+*.exe
+*.out
+*.test
